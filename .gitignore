@@ -11,3 +11,11 @@
 *.lai
 *.la
 *.a
+
+#可执行文件
+*.out
+*.exe
+
+#输入输出重定向文件
+in.txt
+out.txt
