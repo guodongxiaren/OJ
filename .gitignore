@@ -17,5 +17,8 @@
 *.exe
 
 #输入输出重定向文件
-in.txt(~)?
-out.txt(~)?
+in.txt
+out.txt
+#临时文件
+~*
+*~
