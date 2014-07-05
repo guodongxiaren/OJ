@@ -5,31 +5,31 @@ using namespace std;
 int num;
 int w,h;
 bool g[20][20];
-void bfs(int i,int j)
+void dfs(int i,int j)
 {
     if(i-1>=0&&g[i-1][j])
     {
         num++;
         g[i-1][j]=false;
-        bfs(i-1,j);
+        dfs(i-1,j);
     }
     if(j-1>=0&&g[i][j-1])
     {
         num++;
         g[i][j-1]=false;
-        bfs(i,j-1);
+        dfs(i,j-1);
     }
     if(i+1<h&&g[i+1][j])
     {
         num++;
         g[i+1][j]=false;
-        bfs(i+1,j);
+        dfs(i+1,j);
     }
     if(j+1<w&&g[i][j+1])
     {
         num++;
         g[i][j+1]=false;
-        bfs(i,j+1);
+        dfs(i,j+1);
     }
 }
 int main()
@@ -53,7 +53,7 @@ int main()
                 sj=j;
             }
         }
-        bfs(si,sj);
+        dfs(si,sj);
         cout<<num<<endl;
         memset(g,false,sizeof(g));
     }

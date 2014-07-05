@@ -3,7 +3,7 @@
 using namespace std;
 bool g[26][26];
 bool used[26];
-bool bfs(int i)
+bool dfs(int i)
 {
     used[1]=true;
     for(int j=0;j<26;j++)
@@ -13,7 +13,7 @@ bool bfs(int i)
             if(i!=1)
                 g[1][j]=true;
             used[j]=true;
-            bfs(j);
+            dfs(j);
         }
     }
     return g[1][12];
@@ -29,7 +29,7 @@ int main()
             g[s[0]-'a'][s[len-1]-'a']=true;
             continue;
         }
-        if(bfs(1))
+        if(dfs(1))
             cout<<"Yes."<<endl;
         else
             cout<<"No."<<endl;

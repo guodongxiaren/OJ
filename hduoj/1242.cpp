@@ -7,7 +7,7 @@ int w,h,step,num;
 char g[205][205];
 bool used[205][205];
 bool flag;
-void bfs(int i,int j,int num)
+void dfs(int i,int j,int num)
 {
     int x,y,inr=1;
     if(g[i][j]=='x')
@@ -28,14 +28,13 @@ void bfs(int i,int j,int num)
         if(used[x][y])
         {
             used[x][y]=false;
-            bfs(x,y,num+inr);
+            dfs(x,y,num+inr);
             used[x][y]=true;
         }
     }
 }
 int main()
 {
-    freopen("in.txt","r",stdin);
     int si,sj;
     while(cin>>h>>w)
     {
@@ -54,7 +53,7 @@ int main()
             else if(g[i][j]=='r'||g[i][j]=='x'||g[i][j]=='.')
                 used[i][j]=true;
         }
-        bfs(si,sj,0);
+        dfs(si,sj,0);
         if(flag)
             cout<<step<<endl;
         else
