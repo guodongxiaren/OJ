@@ -41,7 +41,6 @@ int main()
     int n,m,i,j;
     while(cin>>n>>m)
     {
-        int k=0;
         memset(map,0,sizeof map);
         memset(in,0,sizeof in);
         while(m--)
