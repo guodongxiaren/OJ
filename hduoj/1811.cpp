@@ -85,11 +85,6 @@ int main()
     int n,m;
     while(cin>>n>>m)
     {
-        if(!m)
-        {
-            cout<<"UNCERTAIN"<<endl;
-            continue;
-        }
         init(n);
         int l,r,c=n;
         bool flag=false;
