@@ -1,0 +1,55 @@
+#include <iostream>
+#include <cstring>
+#include <cstdio>
+#include <cmath>
+#include <cctype>
+#include <cstdlib>
+#include <ctime>
+#include <vector>
+#include <list>
+#include <map>
+#include <set>
+#include <deque>
+#include <stack>
+#include <queue>
+#include <bitset>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <sstream>
+#include <iomainip>
+using namespace std;
+typedef long long ll;
+int a[6];
+int sum;
+bool knasp()
+{
+    for(int i=1;i<=6;i++)
+    {
+        for(int j=0;j<=sum;j++)
+        {
+            if(j>=a[i])
+                f[i][j]=max(f[i-1][j],f[i-1][j-a[]])
+        }
+    }
+}
+int main()
+{
+    int k=1;
+    while(cin>>a[0]>>a[1]>>a[2]>>a[3]>>a[4]>>a[5])
+    {
+        if(!a[0]&&!a[1]&&!a[2]&&!a[3]&&a[4]&&!a[5])
+            break;
+        sum=0;
+        for(int i=1;i<=6;i++)
+        {
+            sum+=a[i]*i;
+        }
+        if(sum&1)
+            break;
+        sum/=2;
+        cout<<"Collection #"<<k++<<":"<<endl;
+
+    }
+}
