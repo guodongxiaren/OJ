@@ -1,8 +1,8 @@
 leetcode
 ========
-|ÌâºÅ|ÌâÄ¿|ÄÑ¶È|±¸×¢
+|#|Title|Difficulty|Remarks
 |:---:|------|----|---
-|69|Sqrt(x)|Medium|
+|69|Sqrt(x)|Medium|åº“å‡½æ•°
 |151|Reverse Words in s String|Medium|
 |162|Find Peak Element|Medium|`python` float('Inf')
 |231|Power of Two|Easy|n&(n-1)==0
