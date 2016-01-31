@@ -3,15 +3,19 @@ leetcode
 |#|Title|Difficulty|Remarks
 |:---:|------|----|---
 |26|Remove Duplicates from Sorted Array|Easy|`STL`: unique(), distance()|
-|27|Remove Element|Easy|`STL`:vector::earse(), ~remove~|
+|27|Remove Element|Easy|`STL`:vector::earse(), ~remove()~|
+|41|First Missing Positive|Hard|有时for循环比find_if更直观高效|
 |66|Plus One|Easy|`STL`: vector, reverse()|
 |69|Sqrt(x)|Medium|库函数
+|136|Single Number|Medium|`STL`: accmulate()|
 |151|Reverse Words in s String|Medium|
 |162|Find Peak Element|Medium|`python` float('Inf')
 |217|Contains Duplicate|Easy|`STL`: set|
 |231|Power of Two|Easy|n&(n-1)==0
 |242|Valid Anagram|Easy|
+|268|Missing Number|Medium|`STL`: find_if()|
 |283|Move Zeroes|Easy|`STL`: remove()|
+|287|Fine the Duplicate Number|Hard|`STL`: adjacent_find()|
 
 ##HIT
 ###STL
