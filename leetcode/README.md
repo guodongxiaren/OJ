@@ -6,6 +6,8 @@ leetcode
 |26|Remove Duplicates from Sorted Array|Easy|`STL`: unique(), distance()|
 |27|Remove Element|Easy|`STL`:vector::earse(), ~remove()~|
 |31|Next Permutation|Medium|`STL`: next_permutation()|
+|34|Search for a Range|Medium|`STL`: lower_bound(), upper_bound(), equal_range()|
+|35|Search Insert Position|Medium|`STL`: lower_bound()|
 |41|First Missing Positive|Hard|有时for循环比find_if更直观高效|
 |46|Permutations|Medium|`STL`: next_permutation()|
 |47|Permutations II|Medium|`STL`: next_permutation()|
@@ -18,6 +20,7 @@ leetcode
 |231|Power of Two|Easy|n&(n-1)==0
 |242|Valid Anagram|Easy|
 |268|Missing Number|Medium|`STL`: find_if()|
+|**278**|Find Bad Version|Easy|二分。有点疑惑|
 |283|Move Zeroes|Easy|`STL`: remove()|
 |287|Fine the Duplicate Number|Hard|`STL`: adjacent_find()|
 
@@ -27,3 +30,4 @@ leetcode
 （g++不会将待删除元素交换到末尾，而是只做单向复制，比如[0,1,0,3,12] 删除0是 [1,3,12,3,12]）
 - next_permutation算法产出的组合不会重复。如果新的排列大于原排列则返回`true`，否则返回`false`。
 - vector的构造函数中如果指定了个数，那么等同于执行的是resize而不是reserve。
+- lower_bound采用的是二分查找
