@@ -13,9 +13,11 @@ leetcode
 |47|Permutations II|Medium|`STL`: next_permutation()|
 |66|Plus One|Easy|`STL`: vector, reverse()|
 |69|Sqrt(x)|Medium|库函数
+|75|sort Colors|Medium|`STL`: sort()|
 |136|Single Number|Medium|`STL`: accmulate()|
 |151|Reverse Words in s String|Medium|
 |162|Find Peak Element|Medium|`python` float('Inf')
+|169|Mgiority Element|Easy|`STL`: sort()|
 |217|Contains Duplicate|Easy|`STL`: set|
 |231|Power of Two|Easy|n&(n-1)==0
 |242|Valid Anagram|Easy|
