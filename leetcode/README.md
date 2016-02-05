@@ -18,7 +18,9 @@ leetcode
 |151|Reverse Words in s String|Medium|
 |162|Find Peak Element|Medium|`python` float('Inf')
 |169|Mgiority Element|Easy|`STL`: sort()|
+|189|Rotate Array|Easy|`STL`: rotate()|
 |217|Contains Duplicate|Easy|`STL`: set|
+|228|Summary Range|Easy|std::ostringstream|
 |231|Power of Two|Easy|n&(n-1)==0
 |242|Valid Anagram|Easy|
 |268|Missing Number|Medium|`STL`: find_if()|
