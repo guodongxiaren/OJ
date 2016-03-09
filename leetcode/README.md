@@ -4,7 +4,7 @@ leetcode
 |:---:|------|----|---
 |1|Two Sum|Medium|`STL`: find(), distance()|
 |26|Remove Duplicates from Sorted Array|Easy|`STL`: unique(), distance()|
-|27|Remove Element|Easy|`STL`:vector::earse(), ~remove()~|
+|27|Remove Element|Easy|`STL`:vector::earse(), ~~remove()~~|
 |31|Next Permutation|Medium|`STL`: next_permutation()|
 |34|Search for a Range|Medium|`STL`: lower_bound(), upper_bound(), equal_range()|
 |35|Search Insert Position|Medium|`STL`: lower_bound()|
