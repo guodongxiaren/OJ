@@ -23,6 +23,7 @@ leetcode
 |228|Summary Range|Easy|std::ostringstream|
 |231|Power of Two|Easy|n&(n-1)==0
 |242|Valid Anagram|Easy|
+|258|Add Digits|Easy|有规律|
 |268|Missing Number|Medium|`STL`: find_if()|
 |**278**|Find Bad Version|Easy|二分。有点疑惑|
 |283|Move Zeroes|Easy|`STL`: remove()|
