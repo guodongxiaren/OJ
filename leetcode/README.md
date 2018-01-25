@@ -31,10 +31,13 @@ leetcode
 |283|Move Zeroes|Easy|`STL`: remove()|
 |287|Fine the Duplicate Number|Hard|`STL`: adjacent_find()|
 
-##HINT
-###STL
+## HINT
+### STL
 - remove算法不会真是移除元素，它既不改变end()迭代器，也不改变成员函数size()的值。
 （g++不会将待删除元素交换到末尾，而是只做单向复制，比如[0,1,0,3,12] 删除0是 [1,3,12,3,12]）
 - next_permutation算法产出的组合不会重复。如果新的排列大于原排列则返回`true`，否则返回`false`。
 - vector的构造函数中如果指定了个数，那么等同于执行的是resize而不是reserve。
 - lower_bound采用的是二分查找
+
+### 链表
+- 2
