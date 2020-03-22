@@ -1,7 +1,7 @@
 SOURCE = $(wildcard *.cpp)
 BIN = $(patsubst %.cpp,%,$(SOURCE))
 CC = g++
-CFLAGS = -Werror=return-type
+CFLAGS = -Werror=return-type -g
 
 ALL: $(BIN)
 
